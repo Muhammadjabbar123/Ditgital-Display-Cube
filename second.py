@@ -51,6 +51,7 @@ def show_feature_messagebox(info,param):
     '''
     this function is used to show message box
     '''
+    print('adding for testing git')
     msg = QMessageBox()
     msg.setStyleSheet(	#"border: none;"
                         "background-color: #16191d;"
