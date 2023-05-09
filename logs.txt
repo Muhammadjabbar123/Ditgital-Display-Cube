@@ -1,0 +1,24 @@
+-> version 1.0.1 :
+ 	1) Application is tested on windows 11 and BLE iisue is resolved
+ 	2) cancel button is removed from all message notifications
+ 	3) Save and Save as button button on hologram creation page made unclickable untill images are placed on all four labels
+ 	4) Message box is added for Save and Save as on hologram creation page if someone click on save or save as without placing images on all labels message box will be displayed.
+ 	5) Back button is added on hologram creation page
+ 	6) Instructions for hologram creation are added.
+-> version 1.0.2 :
+ 	1) instructions for image editing are added.
+	2) We updated the screen switching mechanism now when you press ‘Back’ button on image editing page it will get you to library page instead of main application page.
+	3) Previously we are only able to send one hologram at a time after the first hologram sanded successfully we selected second hologram to upload but now we can select as many hologram as we want, to upload. After selecting holograms we will click on upload and all the holograms will be uploaded on single click.
+	4) Now BLE connection is monitored continuously and if BlE connection is interupted it shows a message box that "Bluetooth disconnected"
+-> version 1.0.3 :
+	1) We worked on Zoom in and zoom out effect of image in Editor Screen. We can zoom-in and out our images by mouse wheel event.
+	2) Previously when we switch between screens the screens open in their default sizes. But now the case is different. We worked on the default size of the screens. Now if we go from first screen to second screen the second screen will be open in a same size of first screen whatever the size of first screen will be it will be reflected in second screen.
+-> version 1.0.4 :
+	1) we worked on optimization of image scaling. In previous version when image is updated the viewfinder went behind the image
+	   we resolved that issue
+	2) when crop or any other button is clicked all the buttons turned to unactive state until the desired operation is completed.
+	3) now slider used in brightness control will have the value where user leave it while editing. It will not go to its default value until user go back and select another image
+	4) we make the size of viewfinder smaller
+	5) we set the icon of devomech as we didnot get the logo from mechanical team 
+-> version 1.0.5 :
+	1) Cropping issue is resolved. Now image is cropped correctly
